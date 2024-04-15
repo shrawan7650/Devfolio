@@ -12,7 +12,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif!important;
-  color: black!important;
+ 
 }
 .navm{
   color: white!important;
@@ -36,7 +36,7 @@ body {
    /* border:1px solid red; */
 }
 .wrapper .static-txt{
-  color: #fff;
+  color: black;
   font-size: 60px;
   font-weight: 400;
 }
@@ -88,7 +88,7 @@ body {
     animation: slide 12s steps(4) infinite;
   }
   .wrapper .static-txt{
-    color: #fff;
+    color:  black;
     font-size: 20px;
     font-weight: 400;
   }

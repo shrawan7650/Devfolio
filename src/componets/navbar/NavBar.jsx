@@ -93,11 +93,11 @@ const NavBar = () => {
 
       <div
         className={`  fixed  border-2 border-black   top-0  min-h-screen   w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
-          show ? "top-[-100%]" : "top-0"
+          show ? "top-[-100%]" : ""
         } duration-5  00`}
       >
         <IoMdClose
-          className="text-4xl absolute  right-2 top-8 "
+          className="text-4xl text-white absolute  right-2 top-8 "
           onClick={() => setShow(!show)}
         />
 

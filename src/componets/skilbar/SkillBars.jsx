@@ -18,7 +18,7 @@ function SkillBars() {
           <div className="md:ml-5 text-2xl flex- flex-col gap-y-3 text-black mb-6">
             <p
               data-aos="fade-up"
-              className=" font-serif font-extrabold text-center text-cyan-300 italic"
+              className=" font-serif font-extrabold text-center text-black italic"
             >
               {" "}
               MY SPECIALTY
@@ -27,7 +27,7 @@ function SkillBars() {
           </div>
           <p
             data-aos="fade-up-left"
-            className=" text-wrap  italic font-medium md:w-[95%] text-blue-800 w-full md:ml-5"
+            className=" text-wrap  italic font-medium md:w-[95%] text-black w-full md:ml-5"
           >
             The purpose of education is to make good human beings with skill and
             expertise... Enlightened human beings can be created by teachers.

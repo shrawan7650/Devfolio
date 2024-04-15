@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { CiMenuFries } from "react-icons/ci";
-
+import { FaLongArrowAltUp } from "react-icons/fa";
 import { IoBulbOutline } from "react-icons/io5";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,11 +55,16 @@ const LeftNavBar = () => {
   }, []);
   return (
     <>
-      <div className="w-[100%]  scroll-smooth  overflow-x-hidden min-h-screen z-0">
+  
+
+      <div className="w-[100%]  relative scroll-smooth  overflow-x-hidden min-h-screen z-0">
         <motion.div
           className="progress-bar z-40  w-full md:ml-[26rem] "
           style={{ scaleX: scrollYProgress }}
         />
+        {/* <div  className=" absolute right-0 top-0 text-5xl">
+  <FaLongArrowAltUp />
+  </div> */}
         {/* home page */}
         <Home />
         {/* About Page */}
@@ -72,12 +77,12 @@ const LeftNavBar = () => {
         >
           <div className="  flex flex-col  border-2 border-indigo-200 border-t-green-500 text-black justify-center rounded-tl-lg items-center gap-y-10">
             <p data-aos="zoom-in" className="text-red-700">
-              Graphic Design
+              Frontend Development
             </p>
           </div>
           <div className="  flex flex-col  text-black justify-center border-2 border-indigo-200 border-r-red-500 rounded-tr-lg items-center gap-y-10">
             <p data-aos="zoom-in-left" className="text-cyan-600">
-              Web Design
+              Backend Development
             </p>
           </div>
           <div className="  flex flex-col  text-black justify-center border-2 border-indigo-200 border-b-yellow-500 rounded-br-lg items-center gap-y-10">
@@ -99,7 +104,7 @@ const LeftNavBar = () => {
             {" "}
             I am happy to know you
             <br />
-            that 300+ projects done sucessfully!
+            that 5+ projects done sucessfully!
           </p>
           <button className=" bg-red-700 border  px-5  py-1  mt-4 ml-3 text-white ">
             Hire Me

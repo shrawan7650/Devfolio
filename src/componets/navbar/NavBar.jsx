@@ -9,7 +9,7 @@ const NavBar = () => {
   const [show, setShow] = useState(true);
   return (
     <>
-      <div className="text-blue-gray-900 w-[35%] z-50  bg-slate-600 h-[48rem]  gap-x-10 overflow-x-auto   hidden md:block sticky top-0 left-0">
+      <div className="text-blue-gray-900 w-[35%] z-50  bg-slate-600  h-screen  gap-x-10 overflow-x-auto   hidden md:block sticky top-0 left-0">
         {/* laptop responsive */}
 
         <div className="flex justify-center mt-5">
@@ -22,10 +22,9 @@ const NavBar = () => {
           </h1>
           <h1 className=" text-center mt-6 tracking-tight hover:tracking-wide uppercase">
             <a className="text-blue-600">full stack developer</a>
-            
           </h1>
           <div className="  h-90 mt-5 flex flex-col uppercase text-black text-1xl justify-center items-center ">
-          <Scroll.Link to="/" smooth duration={1000}>
+            <Scroll.Link to="/" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
                 Home
               </p>
@@ -37,18 +36,17 @@ const NavBar = () => {
               </p>
             </Scroll.Link>
 
-
             <Scroll.Link to="service" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
                 Services
               </p>
             </Scroll.Link>
-              <Scroll.Link to="skills" smooth duration={1000}>
+            <Scroll.Link to="skills" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
                 Skills
               </p>
             </Scroll.Link>
-            
+
             <Scroll.Link to="education" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
                 Education
@@ -56,22 +54,22 @@ const NavBar = () => {
             </Scroll.Link>
             <Scroll.Link to="experience" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-              Experience
+                Experience
               </p>
             </Scroll.Link>
-              <Scroll.Link to="work" smooth duration={1000}>
+            <Scroll.Link to="work" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-              Work
+                Work
               </p>
             </Scroll.Link>
             <Scroll.Link to="blog" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-              Blog
+                Blog
               </p>
             </Scroll.Link>
             <Scroll.Link to="contact" smooth duration={1000}>
               <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-             Contact
+                Contact
               </p>
             </Scroll.Link>
           </div>
@@ -94,12 +92,12 @@ const NavBar = () => {
       />
 
       <div
-        className={`  fixed  border-2 border-black  top-0   h-[40rem]  w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
-          show ? "left-[-100%]" : "left-0"
-        } duration-1000`}
+        className={`  fixed  border-2 border-black   top-0  min-h-screen   w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
+          show ? "top-[-100%]" : "top-0"
+        } duration-5  00`}
       >
         <IoMdClose
-          className="text-3xl absolute  right-2"
+          className="text-4xl absolute  right-2 top-8 "
           onClick={() => setShow(!show)}
         />
 
@@ -110,68 +108,112 @@ const NavBar = () => {
           ></img>
         </div>
 
-        <h1 className=" text-center mt-2 md:mt-8 font-serif font-bold hover:underline text-4xl text-white md:text-black">
+        <h1 className=" text-center navm mt-2 md:mt-8 font-serif font-bold hover:underline text-4xl text-white md:text-black">
           Shrawan
         </h1>
-        <h1 className=" text-center   md:mt-6 tracking-tight hover:tracking-wide uppercase">
-          <a className="text-blue-600">full stack developer</a>
-    
+        <h1 className=" text-center navm   md:mt-6 tracking-tight hover:tracking-wide uppercase">
+          <a className="text-blue-600 fnavm">full stack developer</a>
         </h1>
 
-        <div className="  h-80 mt-2 md:mt-5 flex flex-col uppercase md:text-black text-1xl justify-center items-center ">
-        <Scroll.Link to="/" smooth duration={1000}  onClick={() => setShow(!show)}a>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-                Home
-              </p>
-            </Scroll.Link>
+        <div className="  navm h-80 mt-2 md:mt-5 flex flex-col uppercase md:text-black text-1xl justify-center items-center ">
+          <Scroll.Link
+            to="/"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+            a
+          >
+            <p className=" font-serif navm font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              Home
+            </p>
+          </Scroll.Link>
 
-            <Scroll.Link to="about" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-                About
-              </p>
-            </Scroll.Link>
+          <Scroll.Link
+            to="about"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className="   navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              About
+            </p>
+          </Scroll.Link>
 
+          <Scroll.Link
+            to="service"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              Services
+            </p>
+          </Scroll.Link>
+          <Scroll.Link
+            to="skills"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              Skills
+            </p>
+          </Scroll.Link>
 
-            <Scroll.Link to="service" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-                Services
-              </p>
-            </Scroll.Link>
-              <Scroll.Link to="skills" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-                Skills
-              </p>
-            </Scroll.Link>
-            
-            <Scroll.Link to="education" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-                Education
-              </p>
-            </Scroll.Link>
-            <Scroll.Link to="experience" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+          <Scroll.Link
+            to="education"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              Education
+            </p>
+          </Scroll.Link>
+          <Scroll.Link
+            to="experience"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
               Experience
-              </p>
-            </Scroll.Link>
-              <Scroll.Link to="work" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+            </p>
+          </Scroll.Link>
+          <Scroll.Link
+            to="work"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
               Work
-              </p>
-            </Scroll.Link>
-            <Scroll.Link to="blog" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+            </p>
+          </Scroll.Link>
+          <Scroll.Link
+            to="blog"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
               Blog
-              </p>
-            </Scroll.Link>
-            <Scroll.Link to="contact" smooth duration={1000}  onClick={() => setShow(!show)}>
-              <p className=" font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
-             Contact
-              </p>
-            </Scroll.Link>
+            </p>
+          </Scroll.Link>
+          <Scroll.Link
+            to="contact"
+            smooth
+            duration={1000}
+            onClick={() => setShow(!show)}
+          >
+            <p className=" navm font-serif font-medium  hover:border-b-2 hover:border-blue-700 cursor-pointer mb-2">
+              Contact
+            </p>
+          </Scroll.Link>
         </div>
 
-        <div className="text-center md:mt-5 md:max-w-64 w-full  ">
-          <p className=" text-wrap">
+        <div className=" text-center md:mt-5 md:max-w-64 w-full  ">
+          <p className=" navm text-wrap">
             &copy; Copyright is a legal right that protects original content
             from being copied, shared, reproduced, printed, performed, or
             published without permission.

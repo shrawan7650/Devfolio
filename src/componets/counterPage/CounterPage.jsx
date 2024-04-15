@@ -19,14 +19,14 @@ const CounterPage = () => {
                 <h1>
                   <CountUp
                     start={0}
-                    end={999}
+                    end={15}
                     duration={3.75}
                     delay={0}
                   ></CountUp>
                   +
                 </h1>
               )}
-              <p>PROJECTS</p>
+              <p>CUPS OF COFFEE</p>
             </div>
           </div>
 
@@ -37,14 +37,14 @@ const CounterPage = () => {
                 <h1>
                   <CountUp
                     start={0}
-                    end={999}
+                    end={0}
                     duration={3.75}
                     delay={0}
                   ></CountUp>
                   +
                 </h1>
               )}
-              <p>PROJECTS</p>
+              <p>CLIENTS</p>
             </div>
           </div>
 
@@ -55,14 +55,14 @@ const CounterPage = () => {
                 <h1>
                   <CountUp
                     start={0}
-                    end={999}
+                    end={2}
                     duration={3.75}
                     delay={0}
                   ></CountUp>
                   +
                 </h1>
               )}
-              <p>PROJECTS</p>
+              <p>PARTNERS</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ const CounterPage = () => {
                 <h1>
                   <CountUp
                     start={0}
-                    end={999}
+                    end={8}
                     duration={3.75}
                     delay={0}
                   ></CountUp>

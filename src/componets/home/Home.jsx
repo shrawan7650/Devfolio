@@ -14,14 +14,22 @@ const Home = () => {
     <>
       <div
         id="/"
-        className="md:min-h-[48rem] relative h-[30rem] mb-20 md:mb-40 w-full back object-center"
+        className="md:min-h-[48rem] relative h-[35rem] mb-20 md:mb-40 w-full back object-center"
       >
-        <h1
-          data-aos="zoom-in-down"
-          className="text-black absolute top-48 text-2xl md:top-72 mb-2 md:text-6xl font-serif font-extrabold md:left-20"
-        >
-          I am<br></br>a Developer
-        </h1>
+        <div class="wrapper   flex flex-col  absolute top-40 md:top-64  md:left-20">
+          <div class="static-txt">I'm a</div>
+          <ul class="dynamic-txts   BookishBazaar">
+            <li className="">
+              <span>Designer</span>
+            </li>
+            <li>
+              <span>Developer</span>
+            </li>
+            <li>
+              <span>Freelancer</span>
+            </li>
+          </ul>
+        </div>
 
         <div className="absolute top-72 md:text-2xl md:top-[28rem] font-serif font-extrabold md:left-20">
           <p className="md:w-96 w-44 text-wrap md:mt-0 mb-3 mt-3">
@@ -30,14 +38,14 @@ const Home = () => {
           <p className="">
             by <a className="text-blue-400 cursor-pointer">shrawan.com</a>
           </p>
-          <button className="px-10 gap-2 italic text-black hover:underline cursor-pointer md:mt-8 mt-2 py-2 flex justify-center items-center border border-gray-600">
+          <button className="px-10 gap-2 italic flex-row-reverse text-black hover:underline cursor-pointer md:mt-8 mt-2 py-2 flex justify-center items-center border border-gray-600">
             Download resume{" "}
             <span>
               <a
                 href={require("../../assest/shrawan_Resume.pdf")}
                 download="shrawan_Resume.pdf"
               >
-                <MdFileDownload />
+                <MdFileDownload className="" />
               </a>
             </span>
           </button>

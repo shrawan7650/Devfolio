@@ -8,7 +8,7 @@ const Data = [
   {
     id: 1,
     title: "Full Stack Developer",
-    year: "2017-2018",
+    year: "2022-2024",
     description:
       "Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.",
   },
@@ -18,28 +18,8 @@ const Data = [
     year: "2017-2018",
     description:
       "Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.",
-  },
-  {
-    id: 3,
-    title: "System Analyst",
-    year: "2017-2018",
-    description:
-      "Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.",
-  },
-  {
-    id: 4,
-    title: "Creative Designer",
-    year: "2017-2018",
-    description:
-      "Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.",
-  },
-  {
-    id: 5,
-    title: "UI/UX Designer at Envato",
-    year: "2017-2018",
-    description:
-      "Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.",
-  },
+  }
+  
 ];
 
 const Experience = () => {
@@ -50,7 +30,7 @@ const Experience = () => {
     <>
       <div
         id="experience"
-        className="md:h-[52rem] w-[100%] md:w-[97.5%] relative mt-36  h-fit  md:ml-5"
+        className="md:h-fit w-[100%] md:w-[97.5%] relative md:mt-36 mt-56  h-fit  md:ml-5"
       >
         <div className="md:ml-32">
           <h3

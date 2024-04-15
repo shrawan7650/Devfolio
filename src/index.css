@@ -115,12 +115,12 @@
 }
 
 .skill-per.javascript {
-	width: 60%;
+	width: 75%;
 	animation-delay: 0.2s;
 }
 
 .skill-per.nodejs {
-	width: 40%;
+	width: 60%;
 	animation-delay: 0.3s;
 }
 

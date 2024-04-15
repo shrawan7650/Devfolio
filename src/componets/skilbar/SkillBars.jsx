@@ -79,7 +79,7 @@ function SkillBars() {
                       <span className="tooltip ">
                         <CountUp
                           start={0}
-                          end={60}
+                          end={75}
                           duration={3.75}
                           delay={0}
                         ></CountUp>

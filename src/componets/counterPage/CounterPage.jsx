@@ -11,7 +11,7 @@ const CounterPage = () => {
       >
         <div
           className=" flex w-full md:flex-row   mb-20   flex-col text-black font-serif font-extrabold justify-evenly items-center 
-        md:text-2xl   rounded-md  md:ml-5 mdback"
+        md:text-2xl   rounded-md  md:ml-4 mdback"
         >
           <div>
             <div>
@@ -26,7 +26,7 @@ const CounterPage = () => {
                   +
                 </h1>
               )}
-              <p>CUPS OF COFFEE</p>
+              <p>CUPS OF<br/> COFFEE</p>
             </div>
           </div>
 

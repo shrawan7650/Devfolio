@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { IoIosMenu } from "react-icons/io";
-import logo from "../../assest/Screenshot 2023-10-24 182036.png";
+import logo from "../../assest/my-pic.jpg";
 import { Link } from "react-scroll";
 import * as Scroll from "react-scroll";
 const NavBar = () => {
@@ -21,7 +21,7 @@ const NavBar = () => {
             Shrawan
           </h1>
           <h1 className=" text-center mt-6 tracking-tight hover:tracking-wide uppercase">
-            <a className="text-blue-600">full stack developer</a>
+            <a className="text-red-600">full stack developer</a>
           </h1>
           <div className="  h-90 mt-5 flex flex-col uppercase text-black text-1xl justify-center items-center ">
             <Scroll.Link to="/" smooth duration={1000}>
@@ -94,10 +94,10 @@ const NavBar = () => {
       <div
         className={`  fixed    top-0  min-h-screen   w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
           show ? "left-[-100%]" : ""
-        } duration-1000`}
+        } duration-500`}
       >
         <IoMdClose
-          className="text-4xl text-white absolute duration-1000  right-2 top-8 "
+          className="text-4xl text-white absolute duration-500  right-2 top-8 "
           onClick={() => setShow(!show)}
         />
 
@@ -112,7 +112,7 @@ const NavBar = () => {
           Shrawan
         </h1>
         <h1 className=" text-center navm   md:mt-6 tracking-tight hover:tracking-wide uppercase">
-          <a className="text-blue-600 fnavm">full stack developer</a>
+          <a className="text-red-600 fnavm">full stack developer</a>
         </h1>
 
         <div className="  navm h-80 mt-2 md:mt-5 flex flex-col uppercase md:text-black text-1xl justify-center items-center ">

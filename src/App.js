@@ -11,7 +11,7 @@ import MobileRespnsive from "./componets/mobile/MobileRespnsive";
 function App() {
   return (
     <>
-      <div className="min-h-screen flex  relative    md:px-1 px-2  max-w-[100%] md:max-w-[80%] md:mx-auto">
+      <div className="min-h-screen flex container  relative    md:px-1 px-2  max-w-[100%] md:max-w-[80%] md:mx-auto">
         <NavBar />
         <LeftNavBar />
       </div>

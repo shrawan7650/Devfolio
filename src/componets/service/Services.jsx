@@ -18,7 +18,7 @@ const Services = () => {
         <div className="flex flex-wrap mb-[5rem] mt-3 md:mt-20 justify-between md:mx-5 h-fit">
           <div
             data-aos="fade-up"
-            className="border-2 border-indigo-200 relative border-b-indigo-500 mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center rounded-tl-lg items-center gap-y-8"
+            className="border-2 border-indigo-200 relative border-b-black mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center rounded-tl-lg items-center gap-y-8"
           >
             <FcAcceptDatabase className="float-end md:text-[80px] text-4xl -top-8 md:-top-14 absolute mr-2 mt-2 text-black" />
             <p>INNOVATIVE IDEAS</p>
@@ -29,7 +29,7 @@ const Services = () => {
 
           <div
             data-aos="fade-up"
-            className="border-indigo-200 border-b-indigo-500 mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border rounded-tr-lg items-center gap-y-10"
+            className="border-indigo-200 border-b-red-700 mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border rounded-tr-lg items-center gap-y-10"
           >
             <SiPeakdesign className="float-end md:text-[80px] text-4xl -top-8 md:-top-14 absolute mr-2 mt-2 text-black" />
             <p>Frontend Development</p>
@@ -39,7 +39,7 @@ const Services = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="border-indigo-200 border-b-indigo-500 mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border-2 rounded-br-lg items-center gap-y-10"
+            className="border-indigo-200 border-b-yellow-500 mb-6 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border-2 rounded-br-lg items-center gap-y-10"
           >
             <SiBmcsoftware className="float-end md:text-[80px] text-4xl -top-8 md:-top-14 absolute mr-2 mt-2 text-black" />
             <p>Backend Development</p>
@@ -49,7 +49,7 @@ const Services = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="border-indigo-200 border-b-indigo-500 mb-6 md:mt-8 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border-2 rounded-bl-lg items-center gap-y-10"
+            className="border-indigo-200 border-b-cyan-500 mb-6 md:mt-8 md:mb-5 md:h-72 h-56 md:w-56 w-full flex flex-col text-black justify-center border-2 rounded-bl-lg items-center gap-y-10"
           >
             <MdOutlineSettingsApplications className="float-end md:text-[80px] text-4xl -top-8 md:-top-14 absolute mr-2 mt-2 text-black" />
             <p>UI/UX Design</p>
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
           <div
             data-aos="fade-up"
-            className="border-indigo-200 border-b-indigo-500 mb-6 md:mb-5 md:h-72 h-56 md:mt-8 w-full md:w-56 flex flex-col text-black justify-center border-2 rounded-bl-lg items-center gap-y-10"
+            className="border-indigo-200  border-b-purple-700 mb-6 md:mb-5 md:h-72 h-56 md:mt-8 w-full md:w-56 flex flex-col text-black justify-center border-2 rounded-bl-lg items-center gap-y-10"
           >
             <IoServer className="float-end md:text-[80px] text-4xl -top-8 md:-top-14 absolute mr-2 mt-2 text-black" />
             <p>Server Management</p>

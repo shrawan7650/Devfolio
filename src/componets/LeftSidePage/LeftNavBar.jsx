@@ -76,12 +76,12 @@ const LeftNavBar = () => {
           data-aos-duration="1000"
         >
           <div className="  flex flex-col  border-2 border-indigo-200 border-t-green-500 text-black justify-center rounded-tl-lg items-center gap-y-10">
-            <p data-aos="zoom-in" className="text-red-700">
+            <p data-aos="zoom-in" className="text-red-700 ml-4 md:ml-0">
               Frontend Development
             </p>
           </div>
-          <div className="  flex flex-col  text-black justify-center border-2 border-indigo-200 border-r-red-500 rounded-tr-lg items-center gap-y-10">
-            <p data-aos="zoom-in-left" className="text-cyan-600">
+          <div className="  flex flex-col  text-black justify-center text-wrap   whitespace-nowrap border-2 border-indigo-200 border-r-red-500 rounded-tr-lg items-center gap-y-10">
+            <p data-aos="zoom-in-left" className="text-cyan-600 ml-4 md:ml-0">
               Backend Development
             </p>
           </div>

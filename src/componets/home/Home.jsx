@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <div
         id="/"
-        className="md:min-h-[48rem] relative h-[35rem] mb-20 md:mb-40 w-full back object-center"
+        className="md:min-h-[48rem] relative h-[35rem] mb-20 md:mb-40 w-full back "
       >
         <div class="wrapper   flex flex-col  absolute top-40 md:top-64  md:left-20">
           <div class="static-txt">I'm a</div>
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
 
         <div className="absolute top-72 md:text-2xl md:top-[28rem] font-serif font-extrabold md:left-20">
-          <p className="md:w-96 w-44 text-wrap md:mt-0 mb-3 mt-3">
+          <p className="md:w-96 w-44 text-wrap md:mt-0 mb-3 mt-3 text-black">
             100% html5 talwind template Mode
           </p>
           <p className="">

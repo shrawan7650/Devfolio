@@ -52,21 +52,20 @@ export const Work = () => {
           <div className="gap-2 relative grid   md:grid-cols-3 grid-cols-1 md:ml-5 w-full md:w-[97.5%]">
             {/* div 1 */}
             <div data-aos="fade-left" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute  ml-5 gap-10">
                 <h1>work 01</h1>
                 <p>Book Store</p>
               </div>
-              <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+              <div className="flex md:gap-6 items-center  absolute bottom-2 md:ml-4 gap-16 ml-3">
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -75,26 +74,29 @@ export const Work = () => {
               </div>
 
               <a href="https://bookish-bazaar-w7ym.vercel.app/">
-                <img src={logo1} className="w-full md:w-80 h-56 rounded-md " />
+                <img
+                  src={logo1}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md "
+                />
               </a>
             </div>
             {/* div 2 */}
             <div data-aos="fade-left" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute ml-5 gap-10">
                 <h1>work 02</h1>
                 <p>NetFlix Clone</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
                 <IoMdShare />
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -103,26 +105,29 @@ export const Work = () => {
               </div>
 
               <a>
-                <img src={logo2} className="w-full md:w-80 h-56 rounded-md" />
+                <img
+                  src={logo2}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md"
+                />
               </a>
             </div>
             {/* div 3 */}
             <div data-aos="fade-left" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute  ml-5 gap-10">
                 <h1>Work 3</h1>
                 <p>Todo App</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
                 <IoMdShare />
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -130,26 +135,29 @@ export const Work = () => {
                 )}
               </div>
               <a>
-                <img src={logo3} className="w-full md:w-80 h-56 rounded-md" />
+                <img
+                  src={logo3}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md"
+                />
               </a>
             </div>
             {/* div 4 */}
             <div data-aos="fade-right" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute  ml-5 gap-10">
                 <h1>work 04</h1>
                 <p>Music System</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
                 <IoMdShare />
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -157,26 +165,29 @@ export const Work = () => {
                 )}
               </div>
               <a>
-                <img src={logo4} className="w-full md:w-80 h-56 rounded-md" />
+                <img
+                  src={logo4}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md"
+                />
               </a>
             </div>
             {/* div 5 */}
             <div data-aos="fade-right" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute  ml-5 gap-10">
                 <h1>work 05</h1>
                 <p>Website</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
                 <IoMdShare />
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -184,26 +195,29 @@ export const Work = () => {
                 )}
               </div>
               <a>
-                <img src={logo5} className="w-full md:w-80 h-56 rounded-md" />
+                <img
+                  src={logo5}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md"
+                />
               </a>
             </div>
             {/* div 6 */}
             <div data-aos="fade-right" className="relative">
-              <div className="flex absolute top-6 ml-5 gap-10">
+              <div className="flex absolute ml-5 gap-10">
                 <h1>work 06</h1>
                 <p>Website</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
                 <IoMdShare />
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
                     <CountUp start={0} end={999} duration={3.75} delay={0} />
                     <BiSolidLike />
                   </p>
                 )}
                 {counterOn && (
-                  <p className="flex justify-center items-center gap-1">
+                  <p className="flex justify-center  text-red-700 items-center gap-1">
                     views:{" "}
                     <CountUp start={0} end={99} duration={3.75} delay={0} />
                     <FaEye />
@@ -211,7 +225,10 @@ export const Work = () => {
                 )}
               </div>
               <a>
-                <img src={logo6} className="w-full md:w-80 h-56 rounded-md cursor-pointer" />
+                <img
+                  src={logo6}
+                  className="w-full md:w-80  h-56 cursor-pointer rounded-md cursor-pointer"
+                />
               </a>
             </div>
           </div>

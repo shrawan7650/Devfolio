@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <div
       id="contact"
-      className="container mx-auto px-4 md:mt-0  mt-[50rem] py-8  justify-center items-center"
+      className="container mx-auto px-4 md:mt-0   py-8  justify-center items-center"
     >
       <h1 className="text-3xl text-center font-bold mb-8">Get In Touch</h1>
       <form className="w-full max-w-lg  mx-auto">

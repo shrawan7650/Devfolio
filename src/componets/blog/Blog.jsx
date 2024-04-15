@@ -38,12 +38,12 @@ const Blog = () => {
     AOS.init();
   }, []);
   return (
-    <div id="blog h-56  border  ">
+    <div id="blog   ">
     <div className="ml-5 mt-10 mb-2 text-black">
       <p data-aos="fade-left" className=" font-mono  font-semibold ">Read</p>
       <h2 data-aos="zoom-left" className=" font-medium font-mono italic">RECENT BLOG</h2>
     </div>
-      <div className=" md:ml-5 gap-2 mb-5  w-full h-fit grid grid-cols-1 md:grid-cols-3 md:w-[97.5%]">
+      <div className=" md:ml-5 gap-2 mb-5  w-full md:h-fit grid grid-cols-1 md:grid-cols-3 md:w-[97.5%]">
         {data.map((item, index) => (
           <div data-aos="zoom-in" key={index} className=" mt-2 text-wrap">
             <img src={item.img} alt={item.title} className="  hover:scale-105 rounded-md w-96 h-52" />

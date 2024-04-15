@@ -61,7 +61,7 @@ const Education = () => {
                 : "h-[0rem] hidden"
             } overflow-hidden`}
           >
-            <ul className="w-[100%] text-black">
+            <ul className="w-[100%] text-black md:mt-0 mt-10">
               <li className="w-[100%] px-2 text-wrap">Chandigarh University</li>
               <li className="w-[100%] px-2 text-wrap">Aug 2022 – Jul 2026</li>
               <li className="w-[100%] px-2 text-wrap">
@@ -99,7 +99,7 @@ const Education = () => {
                 : "h-[0rem] hidden"
             } overflow-hidden`}
           >
-            <ul className="w-[100%] text-black">
+            <ul className="w-[100%] text-black md:mt-0 mt-10">
               <li className="w-[100%] px-2 text-wrap">
                 Pk Roy Memorial College
               </li>
@@ -137,7 +137,7 @@ const Education = () => {
                 : "h-[0rem] hidden"
             } overflow-hidden`}
           >
-            <ul className="w-[100%] text-black">
+            <ul className="w-[100%] text-black mt-10 md:mt-0">
               <li className="w-[100%] px-2 text-wrap">Doon Public School</li>
               <li className="w-[100%] px-2 text-wrap">April 2018 – Mar 2019</li>
               <li className="w-[100%] px-2 text-wrap">Grade: 70%</li>

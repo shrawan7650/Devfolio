@@ -87,7 +87,7 @@ export const Work = () => {
                 <p>NetFlix Clone</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+               
                 {counterOn && (
                   <p className="flex justify-center text-red-700 items-center gap-1">
                     Like:{" "}
@@ -118,7 +118,7 @@ export const Work = () => {
                 <p>Todo App</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+                
                 {counterOn && (
                   <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
@@ -148,7 +148,7 @@ export const Work = () => {
                 <p>Music System</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+                
                 {counterOn && (
                   <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
@@ -178,7 +178,7 @@ export const Work = () => {
                 <p>Website</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+                
                 {counterOn && (
                   <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}
@@ -208,7 +208,7 @@ export const Work = () => {
                 <p>Website</p>
               </div>
               <div className="flex md:gap-6 items-center absolute bottom-2 md:ml-4 gap-16 ml-3">
-                <IoMdShare />
+                
                 {counterOn && (
                   <p className="flex justify-center  text-red-700 items-center gap-1">
                     Like:{" "}

@@ -88,16 +88,16 @@ const NavBar = () => {
 
       <IoIosMenu
         onClick={() => setShow(!show)}
-        className="md:hidden block text-5xl z-10 fixed top-2 left-2  text-black font-bold       mr-1 "
+        className="md:hidden block text-5xl z-10 fixed top-2 left-2  text-black font-bold  duration-1000      mr-1 "
       />
 
       <div
-        className={`  fixed  border-2 border-black   top-0  min-h-screen   w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
-          show ? "top-[-100%]" : ""
-        } duration-5  00`}
+        className={`  fixed    top-0  min-h-screen   w-[100%] md:hidden block   left-0  bg-black text-white    z-50  ${
+          show ? "left-[-100%]" : ""
+        } duration-1000`}
       >
         <IoMdClose
-          className="text-4xl text-white absolute  right-2 top-8 "
+          className="text-4xl text-white absolute duration-1000  right-2 top-8 "
           onClick={() => setShow(!show)}
         />
 
